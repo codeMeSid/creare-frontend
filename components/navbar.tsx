@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Typography, Button, Hidden } from "@material-ui/core";
 const TabLogo = require("../public/assets/tab_icon.svg");
 
 const Navbar = () => (
-  <AppBar position={"sticky"} style={{ backgroundColor: "white" }} elevation={4}>
+  <AppBar position={"sticky"} style={{ backgroundColor: "white", paddingTop: ".5rem" }} elevation={4}>
     <Toolbar >
       <img src={TabLogo} alt="Creare Logo" style={{ cursor: "pointer" }} />
       <div style={{ marginLeft: "auto" }}>
