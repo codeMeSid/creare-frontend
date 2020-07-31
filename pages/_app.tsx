@@ -3,7 +3,8 @@ import React from "react";
 import "../public/css/main.css";
 
 const AppComponent = ({ Component, pageProps }: { Component: any, pageProps: any }) => {
-  return <Component {...pageProps} />;
+  return <>
+  <Component {...pageProps} /></>
 };
 
 AppComponent.getInitialProps = async (appContext: any) => {
