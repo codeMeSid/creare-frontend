@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 7px;
+  background-color: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d3d55;
+  border-right: 0.01rem solid white;
+  border-left: 0.01rem solid white;
+  border-radius: 10px;
+}

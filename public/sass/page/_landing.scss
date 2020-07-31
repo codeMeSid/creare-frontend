@@ -1,0 +1,14 @@
+.landing {
+  &__section {
+    background: rgba(#0d3d55, 0.05);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+  }
+  &__video {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+.navlink {
+  color: black;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -0.5rem;
+    left: 0;
+    height: 0.1rem;
+    background-color: black;
+    width: 0;
+    transition: width 300ms linear;
+  }
+
+  &--btn {
+    text-decoration: none;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+  &--event {
+    color: orangered;
+  }
+}
